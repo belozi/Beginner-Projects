@@ -1,0 +1,5 @@
+$ruby
+
+puts "Welcome to 
+puts "What is your name?"
+name = gets.chomp

@@ -9,6 +9,14 @@ can use.
 =end
 
 class Days
+    def initialize
+    x= []
+    y= []
+    z= []
+    @morning= x
+    @afternoon= y
+    @night= z
+    
   {
   :morning => am_stuff,
   :afternoon => pm_stuff,
@@ -32,9 +40,5 @@ class Days
       new_item = gets.chomp
       
   
-Monday = Days.new(x*,y*,z*)
-  def initialize
-    @morning= x
-    @afternoon= y
-    @night= z
-    
+Monday = Days.new(x,y,z)
+

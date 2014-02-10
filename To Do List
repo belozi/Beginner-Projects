@@ -1,0 +1,29 @@
+=begin
+This will be my first project.  
+The goal is to make a user friendly calender/scheduler/to-do-list app.
+I chose this project because I think that it is the best way to practice
+and incorporate what I've learned so far into something that I, personally, 
+can use. 
+=end
+
+class Days
+  {
+  :morning => am_stuff,
+  :afternoon => pm_stuff,
+  :night => personals_stuff
+  }
+  
+    def greeting
+      puts "Hello, #{name} today is #{day}"
+    
+    def things_to_do
+      puts "This is your To Do List for today"
+      puts "#{item[n]"
+      
+  
+Monday = Days.new(x,y,z)
+  def initialize
+    @morning= x
+    @afternoon= y
+    @night= z
+    

@@ -1,3 +1,5 @@
+$ruby
+
 =begin
 This will be my first project.  
 The goal is to make a user friendly calender/scheduler/to-do-list app.
@@ -18,7 +20,16 @@ class Days
     
     def things_to_do
       puts "This is your To Do List for today"
-      puts "#{item[n]"
+      puts "Your items for this morning are:"
+      puts "#{morining_item[n]"
+      puts "This afternoon, you get to:"
+      puts "#{afternoon_item[n]"
+      puts "...and on the agenda for tonight:"
+      puts "#{night_item}"
+      
+    def add_items
+      puts "Do you have any new things to add to the calendar?"
+      new_item = gets.chomp
       
   
 Monday = Days.new(x,y,z)

@@ -40,5 +40,9 @@ class Days
       new_item = gets.chomp
       
   
-Monday = Days.new(x,y,z)
+Monday = Days.new
+Tuesday= Days.new
+Wednesday- Days.new
+Thursday= Days.new
+Friday= Days.new
 

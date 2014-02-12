@@ -9,4 +9,4 @@ About a year later, after working as a Marketing Consultant, I decided that I en
 
 I've have gone back to Code Academy, finished the Ruby exercises, and reworked the python excercises that I started and completed the projects after each section that I had never attempted. I decided to focus on Ruby for now and move onto Python, once I'm comfortable with Ruby. To that end, I am at the end of The Book of Ruby, and I am doing other online tutorials on Ruby and Ruby on Rails. 
 
-This is my first folder where I will be keepping my first programs. My programming blog is located here: http://belozi360.blogspot.com/
+This is my first folder where I will be keeping my first programs. My programming blog is located here: http://belozi360.blogspot.com/

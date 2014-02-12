@@ -23,6 +23,11 @@ class Days
   :night => personals_stuff
   }
   
+ =begin
+ This code should be the intial experience that prints the to do list for the day to the console and
+ and asks for user in put to update the things to do database.
+ =end
+ 
     def greeting
       puts "Hello, #{name} today is #{day}"
     
@@ -39,7 +44,8 @@ class Days
       puts "Do you have any new things to add to the calendar?"
       new_item = gets.chomp
       
-  
+# Create new instances of the Days class
+
 Monday = Days.new
 Tuesday= Days.new
 Wednesday- Days.new

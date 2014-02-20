@@ -69,7 +69,7 @@ def things_to_do
       puts "This afternoon, you get to:"
       puts "#{afternoon_item[n]"
       puts "...and on the agenda for tonight:"
-      puts "#{night_item}"
+      puts "#{night_item[n]}"
       
     def add_items
       puts "Do you have any new things to add to the calendar?"

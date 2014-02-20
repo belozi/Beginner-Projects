@@ -22,7 +22,11 @@ class Days
   :afternoon => pm_stuff,
   :night => personals_stuff
   }
-  
+ 
+
+        
+        
+        
  =begin
  This code should be the intial experience that prints the to do list for the day to the console and
  and asks for user in put to update the things to do database.
@@ -30,8 +34,20 @@ class Days
  
     def greeting
       puts "Hello, #{name} today is #{day}"
-    
-    def things_to_do
+
+#opening
+ 
+puts "What would you like to do?"
+task= gets.chomp
+ 
+case task
+    when "things to do today"
+        puts "TO DO LIST"
+    when "add and item"
+        puts "ITEM ADDED"
+end
+
+def things_to_do
       puts "This is your To Do List for today"
       puts "Your items for this morning are:"
       puts "#{morining_item[n]"

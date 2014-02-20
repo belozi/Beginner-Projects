@@ -17,7 +17,7 @@ class Days
     @afternoon= y
     @night= z
     
-  {
+  things_to_do= {
   :morning => am_stuff,
   :afternoon => pm_stuff,
   :night => personals_stuff

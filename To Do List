@@ -41,15 +41,20 @@ puts "What would you like to do?"
 task= gets.chomp
  
 case task
-    when "things to do today"
+    when "to do"
         puts "This is your To Do List for today"
         puts "Your items for this morning are:"
-        puts "#{morining_item[n]"
+        morning.each do |time, item|
+            puts time + ": " <<item
         puts "This afternoon, you get to:"
-        puts "#{afternoon_item[n]"
+        afternoon.each do |time, item|
+            puts time + ": " <<item
         puts "...and on the agenda for tonight:"
-        puts "#{night_item[n]}"
-    when "add and item"
+        night.each do |time, item|
+            puts time + ": " <<item
+        end
+ 
+    when "add an item"
         puts "What is the date of this task?"
         date= gets.chomp
         puts "What is your new task?"

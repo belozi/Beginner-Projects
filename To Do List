@@ -42,7 +42,13 @@ task= gets.chomp
  
 case task
     when "things to do today"
-        puts "TO DO LIST"
+        puts "This is your To Do List for today"
+        puts "Your items for this morning are:"
+        puts "#{morining_item[n]"
+        puts "This afternoon, you get to:"
+        puts "#{afternoon_item[n]"
+        puts "...and on the agenda for tonight:"
+        puts "#{night_item[n]}"
     when "add and item"
         puts "What is the date of this task?"
         date= gets.chomp
@@ -62,14 +68,8 @@ case task
             
 end
 
-def things_to_do
-      puts "This is your To Do List for today"
-      puts "Your items for this morning are:"
-      puts "#{morining_item[n]"
-      puts "This afternoon, you get to:"
-      puts "#{afternoon_item[n]"
-      puts "...and on the agenda for tonight:"
-      puts "#{night_item[n]}"
+
+
       
     def add_items
       puts "Do you have any new things to add to the calendar?"

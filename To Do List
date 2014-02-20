@@ -44,7 +44,22 @@ case task
     when "things to do today"
         puts "TO DO LIST"
     when "add and item"
-        puts "ITEM ADDED"
+        puts "What is the date of this task?"
+        date= gets.chomp
+        puts "What is your new task?"
+        task= gets.chomp
+        puts "What time is your new task?"
+        time= gets.chomp
+        case time
+            when time < 12
+             x<<task
+             when time >=12 && time < 6
+             y<<task
+             when time >= 6
+             z<<task
+            end
+             
+            
 end
 
 def things_to_do

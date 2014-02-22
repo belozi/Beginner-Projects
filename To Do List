@@ -53,7 +53,7 @@ night = {
  =end
  
     def greeting
-      puts "Hello, #{name} today is #{day}"
+      puts "Hello, #{name} today is #{Time.now}"
 
 #opening
  

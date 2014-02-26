@@ -1,0 +1,60 @@
+class Day
+	attr_accessor :date
+
+	def initialize(date, time, task)
+		@date= date
+		@time= time
+		@task= task
+	end
+
+	def to_do
+		morning_stuff= {}
+		day_stuff= {}
+		night_stuff= {}
+
+		if @time < 1200
+			morning_stuff[time]= task
+			morning_stuff.sort!
+		elsif @time > 1200 && @time < 6
+			day_stuff[time]= task
+			day_stuff.sort!
+		else
+			night_stuff[time]= task
+			night_stuff.sort!
+		end
+	end
+
+puts "#{Time.day.now} #{Time.now}"
+puts "username?"
+name= gets.chomp
+puts "Hello, #{name}."
+puts "What would you like to do?"
+choice= gets.chomp
+
+case choice
+	when "Add a date"
+		puts "What would you like to add?"
+		title= get.chomp
+		put's "When is #{title}?"
+		date= gets.chomp
+		puts= "What time is your appointment?"
+		time= gets.chomp
+		puts "please add a description along with any notes"
+		task= gets.chomp
+		title= Day.new(date, time, task)
+
+	when "Things to do today"
+		puts "This Morning:"
+		morning_stuff.each do |time, task|
+			puts "#{time"}: #{task}
+			
+		puts "After Lunch:"
+		day_stuff.each do |time, task|
+			puts "#{time"}: #{task}
+			day_stuff.sort!
+		puts "Tonight:"
+		night_stuff.each do |time, task|
+			puts "#{time"}: #{task}
+
+	else
+	end
